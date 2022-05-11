@@ -7,7 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{50FC0DF1-9991-4F20-879F-1B7FFC9FC165}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{3998DB56-905F-45E7-9684-47CF2FD26E72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{3998DB56-905F-45E7-9684-47CF2FD26E72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commands", "Commands", "{8DAB1640-3003-41D9-B56B-4D93CA5595DA}"
+	ProjectSection(SolutionItems) = preProject
+		mongo-find-products.txt = mongo-find-products.txt
+		mongo-insert-many.txt = mongo-insert-many.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +32,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{50FC0DF1-9991-4F20-879F-1B7FFC9FC165} = {B54D3B37-AE6D-4A15-AF35-979B1F26AF90}
 		{3998DB56-905F-45E7-9684-47CF2FD26E72} = {50FC0DF1-9991-4F20-879F-1B7FFC9FC165}
+		{8DAB1640-3003-41D9-B56B-4D93CA5595DA} = {50FC0DF1-9991-4F20-879F-1B7FFC9FC165}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85AC3E73-21F6-41C7-A821-BF8459BC4F88}
